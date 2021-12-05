@@ -1,0 +1,25 @@
+{
+  "name": "adventofcode2021",
+  "version": "1.0.0",
+  "description": "Advent of Code 2021 solutions",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "mocha -r ts-node/register 'tests/*.ts'"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.5.2"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.22",
+    "@types/mocha": "^9.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.5.0",
+    "@typescript-eslint/parser": "^5.5.0",
+    "chai": "^4.3.4",
+    "eslint": "^8.4.0",
+    "mocha": "^9.1.3",
+    "ts-node": "^10.4.0"
+  }
+}
